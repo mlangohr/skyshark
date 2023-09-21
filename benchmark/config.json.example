@@ -1,0 +1,28 @@
+{
+  "base" : {
+    "adapter" : "tcp",
+    "latency" : false,
+    "queryId" : 1,
+    "input_file" : "states.bin",
+    "data_frame_size" : 11952,
+    "bind_ip": "127.0.0.1",
+    "bind_port" : 8081
+  },
+  "tcp" : {
+    "ip" : "127.0.0.1",
+    "port" : 8081
+  },
+  "udp" : {
+    "ip" : "127.0.0.1",
+    "port" : 8081
+  },
+  "kafka" : {
+    "broker" : "127.0.0.1:9093",
+    "producer_topic": "state-topic",
+    "consumer_topic" : "result-topic"
+  },
+  "zeromq" : {
+    "ip": "tcp://127.0.0.1",
+    "port" : 5555
+  }
+}

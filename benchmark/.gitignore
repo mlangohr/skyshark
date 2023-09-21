@@ -1,0 +1,45 @@
+/build
+/cmake-build-debug
+/cmake-build-docker
+/cmake-build-docker
+/cmake-build-docker-debug
+/cmake-build-remote-debug
+/results
+/test
+/.vscode
+/.idea
+*.json
+*.csv
+*.avro
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
