@@ -1,0 +1,14 @@
+Download DuckDB CLI from 
+https://duckdb.org/docs/installation/
+
+Download Skyshark Benchmark data from 
+https://skyshark.org/data/data
+and unzip
+
+import skyshark into duckdb file (e.g. 'skyshark.duckdb' using CLI)
+
+duckdb skyshark.duckdb < load_duckdb.sql
+
+run queries over entire dataset like so
+
+duckdb skyshark.duckdb < queries_duckdb.sql
